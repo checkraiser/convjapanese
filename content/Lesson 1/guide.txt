@@ -1,0 +1,11 @@
+<b>Usage Guide:</b>
+Japanese nouns have no number and, as a rule, no gender. 
+Adjectives in Japanese, as in English, have no gender or number. Japanese verbs have no person or number. 
+True adjectives in Japanese end in ai, ii, oi or ui. Used attributively the adjective is placed, as in English, before the noun. When used as predicates of affirmative sentences in familiar speech there is no need of any verb in Japanese ; 
+in less familiar speech no desu or simply desu is added. The negative construction of adjectives is shown in grammar guide; nai is familiar and must be replaced by arimasen in polite speech. Particles or postpositions are placed after the word to which they refer. 
+
+<b>Grammar Guide:</b>
+The negatives of true adjectives are derived from the adverbial form as follows : 
+attribute takaku nai 
+predicate takaku nai 
+adverb takaku naku 

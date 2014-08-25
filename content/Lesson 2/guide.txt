@@ -1,0 +1,11 @@
+True adjectives when used as predicates in connection with the polite verb gozaru change their terminations as shown in 1).The negative construction of these sentences is shown in 2). 
+
+1) True adjectives end in ai, ii, oi or ui. These terminations are changed according to the way in which the adjective is used, as shown in the following table : 
+
+ attribute             | takai  | yasashii  | shiroi  | samui |
+ predicate             | takai  | yasashii  | shiroi  | samui |
+ predicate with gozaru | tako   | yasashiu  | shiro   | samu  |
+ adverb                | takaku | yasashiku | shiroku | samuku|
+
+2) Ordinary negative adjectives in nai are not used in combination with gozaru ; in these polite sentences the negation is to be found in the inflexion of the verb itself : 
+It is not dear ; takaku nai or tako gozaimasen : never takaku no gozaimasu. However, there is no objection to using ordinary adjectives which happen to end in nai, as kitanai dirty, before the verb gozaru : kitano gozaimasu. 

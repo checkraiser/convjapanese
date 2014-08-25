@@ -1,0 +1,18 @@
+<%= link_to 'Home', root_path %>
+
+<p><%= raw (@lesson.guide.gsub(/\n/,'<br/>')) %></p>
+
+
+<h3>Vocabulary</h3>
+<ul>
+	<% @voca.each do |v| %>
+		<li><%= v.original %>: <%= v.meaning %></li>
+	<% end %>
+</ul>
+
+<h3>Example</h3>
+<ul>
+	<% @example.each do |v| %>
+		<li><%= v.original %>: <%= v.meaning %></li>
+	<% end %>
+</ul>
