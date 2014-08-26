@@ -1,15 +1,36 @@
-1. Kono chiisai mise wa takai (B). 2. Ano okii mise wa yasui no desti, (C). 
-3. Kono chiisai mise u'a yasui no desu ka ? (C). 4. Sono chiisai mise wa takai no 
-desu (C). 5. Chiisai mise wa yasuku arimasen (C). 6. Kono empitsu wa takai 
-desu ka ? (C). 7. Sono empitsu wa takaku nai (B). 8. Kono uchi wa okii ka ? 
-(B). 9. Kono uchi wa okiku nai (B). 10. Sono empitsu wa kuroi no desu ka? 
-(C). 11. Kono empitsu wa kuroi (B). 12. Ano uchi wa chiisai ka ? (B). 13. 
-Ano uchi wa okii desu (C). 14. Ano uchi wa takai desu ka ? (C). 15. Ano uchi 
-wa takaku arimasen (C). 16. Sono empitsu wayasui no desu ka ? (C). 17. Kono 
-empitsu wa yasui (B). 
-1. This small shop is dear. 2. That big shop is cheap. 3. Is this small shop 
-cheap ? 4. That small shop is dear. 5. Small shops are not cheap. 6. Is this 
-pencil dear ? 7. That pencil is not dear. 8. Is this house big ? 9. This house 
-is not big. 10. Is that pencil black ? 11. This pencil is black. 12. Is that 
-house small ? 13. That house is big. 14. Is that house high ? 15. That 
-house is not high. 16. Is that pencil cheap ? 17. This pencil is cheap.
+1. Yamada San wa kesa nani wo shite imashlta ? (C). 2. Shimbun wo yonde 
+ita (B). 3. Kyo ginkd e itta ka ? (B). 4. Kyd wa ika-nakatta ; ashita ikd (B). 
+5. Ano mise ni ito ga arimashita ka ? (C). 6. lie, amko ni wa nakatta (B). 
+7. Ano boshi wa Suzuki San no deshita ka ? (C). 8. lie, Suzuki San no ja na- 
+katta ; Tanaka San no datta (B). 9. Kesa niku to tamago wo kaimashita ka ? (C). 
+10. Hai, kaimashita (C). 11. Maruzen ni Ei-go no shimbun ga alia ka ? (B). 
+12. lie, arimasen deshita (C). 13. Kind pen wo kaimashita ka ? (C). 14. E, 
+katta (B). 15. Hana-ko San wa kind uchi e kimasen deshita (C). 16. Brown 
+San wa kind mo hon wo yonde ita ka ? (B). 17. lie, kino wa hon wo yonde i- 
+nakatta (B). 18. Ano hito wa Brown San j a arimasen deshita (C). 19. Tanaka 
+San no kotoba ga zvakarimashita ka ? (C). 20. lie, wakarimasen deshita (C). 
+21. Boshi wa arimashita ka ? (C). 22. Hai, gozaimashita (D). 23. Kono empi- 
+tsu wa doko de kaimashita ? (C). 24. Tokyo de katta (B). 25. Kind nani wo 
+shimashita? (C). 26. Kind wa uchi ni tegami wo kakimashita (C). 27. Anata 
+wa kind uchi ni ita ka ? (B). 28. Kind wauchi ni imasen deshita ; mise de tegami 
+wo kaite imashlta (C). 29. Ano pen wa anata no deshita ka ? (C). 30. Lie, 
+watashi no ja nakatta (B). 31. Kind Tokyo wa ame ga futta ka? (B). 32. lie, 
+furimasen deshita (C). 33. Silva San wa Ei-go no shimbun wo yonde imashlta ka ? 
+(C). 34. lie, Ei-go no shimbun wo yonde imasen deshita (C). 
+1. What was Mr Yamada doing this morning ? 2. He was reading the 
+newspapers. 3. Did you go to the bank today ? 4. I didn't go today ; I shall 
+go tomorrow. 5. Did you find any thread at that shop ? 6. There was none 
+there. 7. Was that hat Mr Suzuki's? 8. No, it was not Mr Suzuki's ; it was 
+Mr Tanaka 's. 9. Did you buy some meat and some eggs this morning ? 10. 
+Yes, I did. 11. Was there an English newspaper atMaru/en's? 12. No, 
+there was not. 13. Did you buy a pen yesterday ? 14. Yes, I did. 15. Miss 
+Hana-ko did not come to my house yesterday. 16. Was Mr Brown again 
+reading a book yesterday ? 17. No, he wasn't reading a book yesterday. 18. 
+That man was not Mr Brown. 19. Did you understand what Mr Tanaka 
+said ? 20. No, I did not. 21. Have you found your hat ? (was your hat any- 
+where ?) 22. Yes, I have. 23. Where did you buy this pencil ? 24. I bought, 
+it in Tokyo. 25. What did you do yesterday ? 26. I wrote home yesterday. 
+27. W T ere you at home yesterday ? 28. I was not at home yesterday ; I was at 
+the office writing letters. 29. Was that pen yours ? 30. No, it was not mine. 
+81. Did it rain in Tokyo yesterday ? 32. No, it did not. 33. Was Mr Silva 
+reading an English newspaper ? 34. No, he was not. 

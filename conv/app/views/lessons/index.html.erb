@@ -1,7 +1,9 @@
-<h1>All lessons</h1>
-
-<ul>
+<div data-role="page" data-title="Home">
+	    <div class="ui-content" role="main">
+<ul data-role="listview" data-filter="true" data-filter-placeholder="Search lesson..." data-inset="true">
 	<% @lessons.each do |l| %>
-		<li><%= link_to l.name, l %></li>
-	<% end %>
+    	<li><%= link_to l.name, l %></li>    
+    <% end %>
 </ul>
+</div>
+</div>

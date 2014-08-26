@@ -1,18 +1,65 @@
-<%= link_to 'Home', root_path %>
 
-<p><%= raw (@lesson.guide.gsub(/\n/,'<br/>')) %></p>
+ <div data-role="header" data-position="fixed" data-theme="a">
+		<a href="#" data-rel="back" class="ui-btn ui-btn-left ui-alt-icon ui-nodisc-icon ui-corner-all ui-btn-icon-notext ui-icon-carat-l">Back</a>
+        <h1><%= @lesson.name %></h1>
+        <a href="<%= root_path %>"  class="ui-btn ui-btn-right ui-alt-icon ui-nodisc-icon ui-corner-all ui-btn-icon-notext ui-icon-home">Home</a>
+    </div>
+  <div data-role="page" data-title="Guide" id="guide">
+  		
+	    <div class="ui-content" role="main">
+				<p><%= raw (@lesson.guide.gsub(/\n/,'<br/>')) %></p>
+		</div><!-- /content -->
+	</div><!-- /page -->
+  <div data-role="page" data-title="Vocabulary" id="vocabulary">
+	    <div class="ui-content" role="main">
+				<ul data-theme="a" data-dividertheme="e" data-filter="true" data-filter-theme="a" data-filter-placeholder="Search friends...">
+					<% @voca.each do |v| %>
+						<li><%= v.original %>: <%= v.meaning %></li>
+					<% end %>
+				</ul>
 
+		</div><!-- /content -->
+	</div><!-- /page -->	
 
-<h3>Vocabulary</h3>
-<ul>
-	<% @voca.each do |v| %>
-		<li><%= v.original %>: <%= v.meaning %></li>
-	<% end %>
-</ul>
+  <div data-role="page" data-title="Sentences" id="sentences">
+	    <div class="ui-content" role="main">
+				<ul data-theme="a" data-dividertheme="e" data-filter="true" data-filter-theme="a" data-filter-placeholder="Search friends...">
+					<% @example.each do |v| %>
+						<li><%= v.original %>: <%= v.meaning %></li>
+					<% end %>
+				</ul>
 
-<h3>Example</h3>
-<ul>
-	<% @example.each do |v| %>
-		<li><%= v.original %>: <%= v.meaning %></li>
-	<% end %>
-</ul>
+		</div><!-- /content -->
+	</div><!-- /page -->
+  <div data-role="footer" data-position="fixed" data-theme="a">
+		<div data-role="navbar">
+			<ul>
+				<li><a href="#guide" data-prefetch="true" data-transition="fade">Guide</a></li>
+				<li><a href="#vocabulary" data-prefetch="true" data-transition="flip">Vocabulary</a></li>
+				<li><a href="#sentences" data-prefetch="true" data-transition="turn">Sentences</a></li>				
+			</ul>
+		</div><!-- /navbar -->
+	</div>
+	<script>
+		$(function() {
+			$( "[data-role='navbar']" ).navbar();
+			$( "[data-role='header'], [data-role='footer']" ).toolbar();
+		});
+		// Update the contents of the toolbars
+		$( document ).on( "pageshow", "[data-role='page']", function() {
+			// Each of the four pages in this demo has a data-title attribute
+			// which value is equal to the text of the nav button
+			// For example, on first page: <div data-role="page" data-title="Info">
+			var current = $( this ).jqmData( "title" );
+			// Change the heading
+			$( "[data-role='header'] h1" ).text( current );
+			// Remove active class from nav buttons
+			$( "[data-role='navbar'] a.ui-btn-active" ).removeClass( "ui-btn-active" );
+			// Add active class to current nav button
+			$( "[data-role='navbar'] a" ).each(function() {
+				if ( $( this ).text() === current ) {
+					$( this ).addClass( "ui-btn-active" );
+				}
+			});
+		});
+	</script>
