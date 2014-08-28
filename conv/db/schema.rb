@@ -11,7 +11,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140825062722) do
+ActiveRecord::Schema.define(version: 20140827061746) do
+
+  create_table "android_metadata", force: true do |t|
+    t.text     "locale"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "contexts", force: true do |t|
     t.integer  "lesson_id"

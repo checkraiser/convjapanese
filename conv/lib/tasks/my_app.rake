@@ -7,6 +7,9 @@ namespace :my_app do
   		puts 'processing dir ' + sd
   		tmp = sd.split(' ')[1].to_i
   		if  tmp < 10 then
+  			sd2 = sd.split(' ')[0] + ' ' + '00' + tmp.to_s 
+  			lesson = Lesson.create(name: sd2)
+  		elsif tmp >= 10 and tmp < 100 then
   			sd2 = sd.split(' ')[0] + ' ' + '0' + tmp.to_s 
   			lesson = Lesson.create(name: sd2)
   		else
